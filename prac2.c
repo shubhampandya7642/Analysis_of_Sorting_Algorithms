@@ -487,7 +487,7 @@ int main(){
     }
      printf("\nDo you want to continue? Press 1 to continue, Press 0 to exit.\n");
      scanf("%d", &choice);
-    }while(1);
+    }while(choice!=0);
 
 return 0;
 }
