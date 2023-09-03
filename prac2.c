@@ -401,7 +401,7 @@ int main(){
     int a[n]; // n=1000
 
     for(int i=0;i<n;i++){
-        a[i] = rand() % 1000;
+        a[i] = rand() % n;
     }
 
     printf("\nWhich Sorting do you want to perform?\n\n1. Random_Selection Sort   2. Random_Bubble Sort   3. Random_Insertion Sort   \n4. Random_Merge Sort   5. Random_Quick Sort   \n\n6. Asc_SelectionSort   7. Asc_BubbleSort   8. Asc_InsertionSort   \n9. Asc_MergeSort   10. Asc_QuickSort   \n\n11. Des_SelectionSort   12. Des_BubbleSort   13. Des_InsertionSort   \n14. Des_MergeSort   15. Des_QuickSort\n\n\n");
